@@ -2,8 +2,14 @@ package com.pooranjoyb.order.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+
+@ComponentScan(basePackages = {
+        "com.pooranjoyb.order.service",
+        "com.pooranjoyb.shared"
+})
 public class Application {
 
     public static void main(String[] args) {
