@@ -5,11 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-
-@ComponentScan(basePackages = {
-        "com.pooranjoyb.order.service",
-        "com.pooranjoyb.shared"
-})
 public class Application {
 
     public static void main(String[] args) {
